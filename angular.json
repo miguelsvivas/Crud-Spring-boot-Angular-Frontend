@@ -24,9 +24,14 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+               "node_modules/bootstrap/dist/css/bootstrap.min.css",
+               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+               "node_modules/jquery/dist/jquery.min.js",
+               "node_modules/@popperjs/core/dist/umd/popper.min.js",
+               "node_modules/bootstrap/dist/js/bootstrap.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -119,6 +124,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "crudFront"
+    }
+  },
+  "defaultProject": "crudFront",
+  "cli": {
+    "analytics": "bc3e4716-5561-48a2-9d0a-354c467a35a0"
+  }
 }
